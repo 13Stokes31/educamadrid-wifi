@@ -80,8 +80,8 @@ Requisitos:
 - Librerías gráficas habituales de un escritorio (OpenGL, Wayland o X11, xkbcommon).
 
 ```bash
-git clone https://github.com/13Stokes31/educamadrid_wifi.git
-cd educamadrid_wifi
+git clone https://github.com/13Stokes31/educamadrid-wifi.git
+cd educamadrid-wifi
 cargo build --release
 ./target/release/educamadrid-wifi
 ```
