@@ -46,4 +46,4 @@ comprobarlo.
 
 ## Paquete AUR (tras publicar)
 
-- [ ] `yay -S educamadrid-wifi` en un Arch limpio (o el PC de pruebas) instala y abre la app.
+- [x] `yay -S educamadrid-wifi` en un Arch limpio (o el PC de pruebas) instala y abre la app.
