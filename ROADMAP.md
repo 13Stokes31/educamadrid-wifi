@@ -51,9 +51,6 @@ Origen: auditoría externa del 2026-08-28 (antiguo `CHATGPT.md`) y revisión del
 
 - **Varias tarjetas Wi-Fi:** se usa la primera encendida. Si alguien tiene dos (p. ej. un USB),
   podría hacer falta un selector. Estado: sin demanda, no hacer salvo que aparezca.
-- **Diálogo de contraseña del escritorio al fallar:** si la contraseña es incorrecta,
-  NetworkManager puede pedirla al agente del escritorio (KDE/GNOME muestra su propio diálogo)
-  mientras la app espera. Estado: verificar en el centro (ver `TESTING.md`). Si molesta, estudiarlo.
 - **Contradicción en la guía oficial:** su tabla resumen dice PEAP+MSCHAPv2 para `WEDU_PROF`,
   pero todas las capturas y pasos dicen TTLS+PAP. TTLS+PAP está confirmado en uso real. Si algún
   día deja de funcionar, probar PEAP/MSCHAPv2.

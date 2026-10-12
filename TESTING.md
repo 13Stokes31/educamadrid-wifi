@@ -22,7 +22,7 @@ comprobarlo.
 - [x] **Contraseña mal con perfil previo bueno:** con `WEDU_PROF` ya configurado, meter una contraseña
       errónea → mensaje rojo explicando el rechazo. Después, `nmcli connection show` sigue mostrando
       el perfil antiguo y se puede reconectar con él.
-      Anotar si KDE/GNOME abre además su propio diálogo pidiendo la contraseña.
+      Comprobado en KDE Plasma: el escritorio no abre su propio diálogo pidiendo la contraseña.
 - [x] **Perfil privado:** en el mismo equipo, desde otra cuenta de Linux, `WEDU_PROF` no aparece
       como utilizable (o no conecta).
 - [x] **Capturar el certificado del servidor** para el punto de seguridad del ROADMAP:
